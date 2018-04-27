@@ -1,0 +1,212 @@
+body {
+  font-family: 'Roboto',sans-serif;
+  background: #f5f5f5; }
+
+.header {
+  background: #9C27B0;
+  color: #fff; }
+  .header .top-bar {
+    padding-bottom: 7.5rem;
+    padding-top: 1rem; }
+    .header .top-bar .medsos {
+      margin-bottom: 0px; }
+      .header .top-bar .medsos a {
+        color: rgba(255, 255, 255, 0.8);
+        display: inline-block;
+        text-align: center;
+        width: 2rem;
+        height: 2rem;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border-radius: 50%;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        padding-top: 2px;
+        border: 2px solid rgba(255, 255, 255, 0.8); }
+    .header .top-bar .dwnload-resume a:hover {
+      background-color: #89229b;
+      border-color: #89229b; }
+  .header .intro {
+    background: #89229b;
+    padding-top: 5.625rem;
+    padding-bottom: 1rem;
+    position: relative; }
+    .header .intro .profpic-img {
+      position: absolute;
+      height: 10rem;
+      width: 10rem;
+      top: 0%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    .header .intro .name {
+      font-size: 48px;
+      letter-spacing: .5px; }
+    .header .intro .title {
+      font-size: 28px;
+      font-weight: 300;
+      color: rgba(255, 255, 255, 0.8); }
+    .header .intro .profile .bold {
+      font-weight: bold; }
+    .header .intro .profile .profile__orenge {
+      color: #ff9801; }
+  .header .contact-info {
+    background: #771e86;
+    font-size: 16px; }
+    .header .contact-info li {
+      color: rgba(255, 255, 255, 0.8); }
+      .header .contact-info li a {
+        color: rgba(255, 255, 255, 0.8); }
+
+.bg-ungu-4 {
+  background: #641971; }
+
+.bg-ungu-1 {
+  background: #9C27B0; }
+
+#nav .nav-link {
+  color: rgba(255, 255, 255, 0.8); }
+  #nav .nav-link:hover, #nav .nav-link:focus, #nav .nav-link:active {
+    color: #fff; }
+
+#experiences-section .card {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 0; }
+  @media only screen and (max-width: 37.5em) {
+    #experiences-section .card {
+      padding-left: 8px !important;
+      padding-right: 8px !important; } }
+
+#experiences-section .timeline {
+  margin-left: 17.5rem;
+  border-left: 3px solid #9C27B0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  color: #666; }
+  #experiences-section .timeline .item:before {
+    content: "";
+    position: absolute;
+    left: -60px;
+    top: 0;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #fff;
+    border: 3px solid #9C27B0; }
+  #experiences-section .timeline .job-meta {
+    position: absolute;
+    left: -50%;
+    top: 0; }
+    #experiences-section .timeline .job-meta .title {
+      color: #9C27B0; }
+  @media only screen and (max-width: 62em) {
+    #experiences-section .timeline {
+      margin-left: 0;
+      border-left: none;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      color: #666;
+      border-left: 3px solid #9C27B0;
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px;
+      position: relative; }
+      #experiences-section .timeline .item:before {
+        content: "";
+        position: absolute;
+        left: -60px;
+        top: 0;
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border-radius: 50%;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        background: #fff;
+        border: 3px solid #9C27B0; }
+      #experiences-section .timeline .job-meta {
+        position: relative;
+        left: 0; }
+        #experiences-section .timeline .job-meta .title {
+          color: #9C27B0; } }
+  @media only screen and (max-width: 37.5em) {
+    #experiences-section .timeline {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+      margin-left: 0;
+      border-left: none;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      color: #666;
+      border-left: none;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      position: relative; }
+      #experiences-section .timeline .item:before {
+        display: none; }
+      #experiences-section .timeline .job-meta {
+        position: relative;
+        left: 0; }
+        #experiences-section .timeline .job-meta .title {
+          color: #9C27B0; } }
+
+#education-section .card {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 0; }
+  #education-section .card .card__1 {
+    box-shadow: none !important;
+    border-radius: 0.25rem !important; }
+    #education-section .card .card__1 h5 {
+      color: #9C27B0; }
+
+#skills-section .card {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 0; }
+  #skills-section .card .card__1 {
+    box-shadow: none !important;
+    border-radius: 0.25rem !important;
+    position: relative; }
+    #skills-section .card .card__1 .title-1 {
+      position: absolute;
+      top: 30%;
+      left: 38%; }
+
+#portfolio-section .card {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 0; }
+  #portfolio-section .card .card__1 {
+    box-shadow: none !important;
+    border-radius: 0.25rem !important; }
+
+#portfolio-section a {
+  color: #fff; }
+  #portfolio-section a:hover, #portfolio-section a:visited, #portfolio-section a:focus {
+    color: #fff; }
+
+.scrollTop {
+  position: fixed;
+  right: 5%;
+  bottom: 10px;
+  background-color: #9C27B0;
+  padding: 10px;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s; }
+
+.scrollTop a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none; }
